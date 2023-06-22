@@ -22,7 +22,7 @@ public class ComputeChange {
     int numberOfQuarters = remainingAmount / 25;
     remainingAmount = remainingAmount % 25;
 
-    // Find the number of dmes in the remaining amount
+    // Find the number of dimes in the remaining amount
     int numberOfDimes = remainingAmount / 10;
     remainingAmount = remainingAmount % 10;
 
