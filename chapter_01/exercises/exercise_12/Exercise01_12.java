@@ -23,6 +23,6 @@ public class Exercise01_12 {
      *
      * 6. averageVelocity = distance / time
      */
-    System.out.println((24 * 1.6) / (1 + 40.0 / 60 + 35.0 / 3600));
+    System.out.println("KPH" + ((24 * 1.6) / (1 + 40.0 / 60 + 35.0 / 3600)));
   }
 }

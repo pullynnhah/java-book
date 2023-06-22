@@ -20,6 +20,6 @@ public class Exercise01_10 {
      *
      * 6. averageVelocity = distance / time
      */
-    System.out.println((14 / 1.6) / (45.0 / 60 + 30.0 / 3600));
+    System.out.println("MPH = " + ((14 / 1.6) / (45.0 / 60 + 30.0 / 3600)));
   }
 }
