@@ -1,8 +1,8 @@
-package chapter_02.exercises.exercise_08;
+package chapter_03.exercises.exercise_30;
 
 import java.util.Scanner;
 
-public class Exercise02_08 {
+public class Exercise03_30 {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
@@ -18,8 +18,8 @@ public class Exercise02_08 {
     long currentMinute = totalMinutes % 60;
     long currentHour = (totalHours + offset) % 24;
 
-
-    System.out.println("Current time is " + currentHour + ":"
-      + currentMinute + ":" + currentSecond);
+    System.out.print("Current time is " + (currentHour % 12) + ":"
+      + currentMinute + ":" + currentSecond + " "
+      + (currentHour >= 12 ? "PM": "AM"));
   }
 }
