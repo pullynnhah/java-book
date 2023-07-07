@@ -26,7 +26,7 @@ public class RandomCharacter {
    * Generate a random digit character
    */
   public static char getRandomDigitCharacter() {
-    return getRandomCharacter('a', 'z');
+    return getRandomCharacter('0', '9');
   }
 
   /**
